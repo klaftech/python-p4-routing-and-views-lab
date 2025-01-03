@@ -9,7 +9,7 @@ def index():
     return '<h1>Python Operations with Flask Routing and Views</h1>'
 
 @app.route('/print/<string:parameter>')
-def print_String(parameter):
+def print_string(parameter):
     print(parameter)
     return parameter
 
